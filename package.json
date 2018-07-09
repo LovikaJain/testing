@@ -1,14 +1,32 @@
 {
-  "name" : "node-app",
-  "description": "hello jenkins test app",
-  "version" : "0.0.1",
-  "private": true,
-  "dependencies" : {
-    "express" : "3.12.0"
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Small Node application to test jenkins CI/CD pipeline",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "commander": "^2.16.0",
+    "express": "^4.16.3"
   },
   "devDependencies": {
-    "mocha" : "1.20.1",
-    "supertest" : "0.13.0"
-  }
+    "mocha": "^5.2.0",
+    "should": "^13.2.1",
+    "supertest": "^3.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LovikaJain/testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LovikaJain/testing/issues"
+  },
+  "homepage": "https://github.com/LovikaJain/testing#readme"
 }
-
